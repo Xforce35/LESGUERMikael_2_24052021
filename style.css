@@ -301,6 +301,8 @@ nav ul {
         padding: 0px 0px 5px 0px;
         opacity: 0.8;
         transition: 0.2s ease-in-out;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
     }
 
     .carte:hover h3 {
@@ -420,7 +422,10 @@ nav ul {
 
 /* Cartes section "Populaires" hover */
 
-.carte_populaires:hover img{ padding-bottom: 0; }
+.carte_populaires:hover img{ 
+        padding-bottom: 0; 
+        border-top-right-radius: 20px;
+    }
 
 .carte_populaires:hover .notes_populaires{
     position: absolute;
@@ -533,6 +538,8 @@ figcaption {
 .activités--carte:hover img {
     padding: 2px;
     transition: 0.2s ease-in;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
             /* --- FOOTER --- */
