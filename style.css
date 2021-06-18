@@ -214,3 +214,7 @@ nav ul {
         cursor: pointer;
     }
 
+/* Icônes à la largeur différente des autres, modification des paddings en conséquence pour ne pas avoir à les retrécir */
+#icone_1 { padding: 16px 15px; }
+
+#icone_2 { padding: 13px 17px; }
