@@ -285,3 +285,23 @@ nav ul {
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }
+    
+/* Carte hover */
+
+.carte:hover {
+    border: 1px solid #cccccc;
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.363);
+    transition: 0.3s ease-in;
+}
+
+    .carte:hover img {
+        padding: 0px 0px 5px 0px;
+        opacity: 0.8;
+        transition: 0.2s ease-in-out;
+    }
+
+    .carte:hover h3 {
+        color: #0065FC;
+        font-size: 1.1em;
+        transition: 0.2s ease-in;
+    }
