@@ -152,7 +152,7 @@ nav ul {
 
 /* Barre de Recherche hover */
 
-#searchbar #bouton--desktop:hover {
+#barre_de_recherche #bouton--desktop:hover {
     color: #0065FC;
     background-color: #DEEBFF;
     cursor: pointer;
