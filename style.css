@@ -158,3 +158,41 @@ nav ul {
     cursor: pointer;
     transition: 0.3s ease-in;
 }
+
+/* Filtres */
+
+#filtre--container {
+    padding-top: 10px;
+    width: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+    #filtre--titre {
+        display: inline;
+        font-size: 17px;
+        font-weight: 700;
+        margin-left: 10px;
+    }
+
+    .filtre p {
+        padding: 13px 20px 12px 0px;
+        margin-left: 20px;
+        font-size: 17px;
+        font-weight: 700;
+        border: 2px solid #e2e2e2;
+        border-radius: 25px;
+        border-left-style: none;
+        border-left-color: #fff;
+    }
+
+    .filtre i {
+        padding: 16px;
+        margin-right: 13px;
+        display: inline;
+        color: #0065FC;
+        background-color: #DEEBFF;
+        border-radius: 50%;
+    }
+    
