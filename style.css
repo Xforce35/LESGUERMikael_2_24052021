@@ -195,4 +195,22 @@ nav ul {
         background-color: #DEEBFF;
         border-radius: 50%;
     }
-    
+
+    /* Filtres hover*/
+
+    .filtre:hover p{
+        color: #0065FC;
+        background-color: #DEEBFF;
+        transform: scale(1.05);
+        border-color: #fff;
+        transition: 0.2s ease-in;
+        cursor: pointer;
+    }
+
+    .filtre:hover i{
+        background-color: #fff;
+        color: #025adf;
+        transition: 0.2s ease-in;
+        cursor: pointer;
+    }
+
