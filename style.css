@@ -454,3 +454,62 @@ figcaption {
     font-size: 1em;
     padding: 15px 20px;
 }
+
+/* "Activités" grid area */
+#activités--container {
+    display: grid;
+    height: 450px;
+    padding: 0 5px;
+    grid: 195px 40px 40px 170px / repeat(4, 1fr);
+    column-gap: 40px;
+    overflow: hidden;
+}
+
+/* Spécification individuelles img height car la figcaption sors de son figure */
+    #activités--1 {
+        grid-area: 1 / 1 / 5 / 1;
+    }
+
+        #activités--1 img {
+            height: 87%;
+        }
+    
+    #activités--2 {
+        grid-area: 1 / 2 / 3 / 2;
+    }
+
+        #activités--2 img {
+            height: 76%;
+        }
+
+    #activités--3 {
+        grid-area: 4 / 2 / 5 / 2;
+    }
+
+        #activités--3 img {
+            height: 65%;
+        }
+
+    #activités--4 {
+        grid-area: 1 / 3 / 5 / 3;
+    }
+
+        #activités--4 img {
+            height: 87%;
+        }
+
+    #activités--5 {
+        grid-area: 1 / 4 / 2 / 4;
+    }
+
+        #activités--5 img {
+            height: 70%;
+        }
+
+    #activités--6 {
+        grid-area: 3 / 4 / 5 / 4;
+    }
+
+        #activités--6 img {
+            height: 72%;
+        }
