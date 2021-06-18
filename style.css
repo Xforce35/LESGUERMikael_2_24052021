@@ -101,3 +101,44 @@ nav ul {
             color: #0049b8;
             border-top: 1px solid transparent;
         }
+
+            /* --- SECTION RECHERCHE --- */
+
+/* Barre de Recherche */
+
+#barre_de_recherche {
+    margin: 20px 0px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+    #barre_de_recherche 
+    input,
+    button {
+        height: 100%;
+        font-size: 1.1em;
+        font-weight: 600;
+        border: none;
+    }
+
+    #barre_de_recherche input {
+        width: 240px;
+        font-weight: 700;
+        font-size: 1.1em;
+        padding: 10px 15px;
+        border: 1px solid #F2F2F2;
+    }
+
+    ::placeholder {
+        color: rgb(45, 45, 45);
+        opacity: 1;
+    }
+
+    #barre_de_recherche #bouton--desktop {
+        color: #fff;
+        background-color: #0065FC;
+        padding: 10px 18px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
