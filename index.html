@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reservia - Trouvez votre hébergement pour des vacances de rêve</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="images/logo/Reservia.svg" />
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/cbf8feb3a6.js" crossorigin="anonymous"></script>
 </head>
 
@@ -17,6 +17,7 @@
         <header>
             <div id="logo">
                 <img src="img/logo/Reservia.svg" alt="Logo de Réservia">
+                <a id="bouton_inscription--mobile" href="#">S'inscrire</a>
             </div>
             <nav>
                 <ul>
@@ -41,6 +42,7 @@
                     <input type="search" id="query" name="q" placeholder="Marseille, France"
                         aria-label="Effectuer une recherche">
                     <button type="submit" id="bouton--desktop">Rechercher</button>
+                    <button type="submit" id="bouton--mobile"><i class="fas fa-search"></i></button>
                 </form>
 
                 <!-- Filtres -->
@@ -149,7 +151,7 @@
                                 <img src="img/hebergements/auberge-panier_S.jpg" alt="Chambre avec lits jumeaux en bois">
                                 <div class="carte--legende_photo">
                                     <h3>Auberge Le Panier</h3>
-                                    <p class="carte--legende_tarif">Nuit à partir de <strong>23€</strong></p>
+                                    <p class="carte--legende_tarif">Nuit à partir de 23<strong>€</strong></p>
                                     <div class="carte--evaluations">
                                         <i class="fas fa-star fa-xs full"></i>
                                         <i class="fas fa-star fa-xs full"></i>
