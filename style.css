@@ -423,3 +423,34 @@ nav ul {
     position: absolute;
     padding-top: 95px;
 }
+
+            /* --- SECTION "ACTIVITÉS" --- */
+
+#section--activités {
+    margin: 30px 0px 60px;
+    width: 100%;
+}
+
+#titre--activités {
+    padding-top: 25px;
+}
+
+figure {
+    max-height: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 7px rgba(128, 128, 128, 0.164);
+}
+
+figure img {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+figcaption {
+    font-weight: 700;
+    font-size: 1em;
+    padding: 15px 20px;
+}
