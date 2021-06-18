@@ -88,6 +88,8 @@ nav ul {
             color: #0065FC;
         }
 
+        #bouton_inscription--mobile { visibility: hidden; }
+
         /* Nav hover */
 
         nav a:hover {
