@@ -218,3 +218,21 @@ nav ul {
 #icone_1 { padding: 16px 15px; }
 
 #icone_2 { padding: 13px 17px; }
+
+/* Résultat de recherche */
+
+#search_result {
+    margin: 35px 10px;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+    #search_result i {
+        margin-right: 10px;
+        padding: 6px 10px;
+        color: #0065FC;
+        border: 1px solid #e2e2e2;
+        border-radius: 50%;
+    }
