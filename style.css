@@ -564,3 +564,42 @@ footer {
     margin-right: 65px;
 }
 
+        /* --- MEDIA QUERIES --- */
+
+@media screen and (min-width: 1661px) {
+    #page-entiere {
+        margin: 0 6.5%;
+    }
+
+    #section--activités {
+        margin: auto;
+        width: 85%;
+        padding: 30px 0px 60px;
+    }
+
+    footer {
+        padding: 0 50px;
+        margin: auto;
+        justify-content: space-evenly;
+    }
+}
+
+
+@media screen and (min-width: 1461px) {
+    #hebergement_populaires--container, 
+    .carte--container {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 1261px) {
+    figcaption {
+        font-weight: 600;
+        font-size: 0.9em;
+    }
+
+    .footer--box {
+        justify-content: space-between;
+        margin-right: 50px;
+    }
+}
