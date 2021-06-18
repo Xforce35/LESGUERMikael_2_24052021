@@ -152,7 +152,8 @@ nav ul {
         border-top-left-radius: 15px;
         border-bottom-left-radius: 15px;
     }
-
+    #bouton--mobile { visibility: hidden; }
+    
 /* Barre de Recherche hover */
 
 #barre_de_recherche #bouton--desktop:hover {
