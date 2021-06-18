@@ -513,3 +513,21 @@ figcaption {
         #activités--6 img {
             height: 72%;
         }
+
+/*  Carte "Activités" Hover  */
+.activités--carte:hover {
+    opacity: 0.9;
+    box-shadow: 2px 3px 7px rgba(128, 128, 128, 0.425);
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.activités--carte:hover figcaption {
+    color: #0065FC;
+    transition: 0.2s ease-in;
+}
+
+.activités--carte:hover img {
+    padding: 2px;
+    transition: 0.2s ease-in;
+}
