@@ -236,3 +236,11 @@ nav ul {
         border: 1px solid #e2e2e2;
         border-radius: 50%;
     }
+
+/* Afficher les sections "Hébergements" et "Populaires" côte à côte*/
+#hebergement_populaires--container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
