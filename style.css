@@ -142,3 +142,19 @@ nav ul {
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
     }
+
+        #barre_de_recherche i {
+        padding: 17px 20px;
+        background-color: #F2F2F2;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+/* Barre de Recherche hover */
+
+#searchbar #bouton--desktop:hover {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
