@@ -351,6 +351,26 @@ nav ul {
     transition: 0.2s ease-in;
 }
 
+           /* --- SECTION "POPULAIRES" --- */
+
+#section--populaires {
+    margin-left: 30px;
+    padding: 20px 35px 30px;
+    width: fit-content;
+    min-width: 410px;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+}
+
+    #section--populaires_titre {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
 /* Cartes section "Populaire" */
 
 .carte--container_populaires { 
