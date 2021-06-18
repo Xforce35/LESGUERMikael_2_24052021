@@ -285,7 +285,7 @@ nav ul {
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }
-    
+
 /* Carte hover */
 
 .carte:hover {
@@ -305,3 +305,25 @@ nav ul {
         font-size: 1.1em;
         transition: 0.2s ease-in;
     }
+
+/* Légende */
+
+.carte--legende_photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 67px;
+    padding: 0px 15px 10px;
+}
+
+.carte--legende_tarif { font-size: 0.9em; }
+
+/* Notes */
+
+.carte--evaluations { display: flex; }
+
+.fas { padding: 4px 1px 0px 0px; }
+
+.full { color: #0065FC; }
+
+.empty { color: #cccccc; }
