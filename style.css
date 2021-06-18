@@ -244,3 +244,44 @@ nav ul {
     display: flex;
     justify-content: space-between;
 }
+
+            /* --- SECTION "HÉBERGEMENTS" --- */
+
+#section--hebergements {
+    padding: 20px 40px;
+    width: fit-content;
+    height: fit-content;
+    max-width: 886px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+}
+
+/* Cartes */
+
+.carte--container {
+    display: flex;
+    width: fit-content;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+/* Border transparente pour empêcher le mouvement lors d'un hover */
+.carte {
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 2px 2px 7px rgba(128, 128, 128, 0.301);
+}
+
+    .carte img {
+        height: 125px;
+        width: 245px;
+        object-fit: cover;
+        padding: 4px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
