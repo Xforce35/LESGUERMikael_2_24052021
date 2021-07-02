@@ -820,7 +820,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 901px) {
     #page-entiere { 
     margin: auto;
     max-width: 1330px;}
