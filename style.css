@@ -8,21 +8,11 @@
 
 /* --- REGLE GENERAL --- */
 
-@font-face /*Téléchargement de la police Raleway*/ {
-  font-family: "Raleway";
-  src: url("static/Raleway-Black.ttf"),
-    url("static/Raleway-BlackItalic.ttf") url("Raleway-VariableFont_wght.ttf")
-      url("Raleway-Italic-VariableFont_wght.ttf");
-}
-
-* {
-  font-family: "Raleway", Arial, Verdana, sans-serif;
-}
-
 /*General*/
 * {
   margin: 0;
   padding: 0;
+  font-family: "Raleway", Arial, Verdana, sans-serif;
 }
 
 .container {
@@ -36,8 +26,8 @@ h1 {
   font-size: 22px;
 }
 
-h2{
-    font-size: 22px;
+h2 {
+  font-size: 22px;
 }
 
 p {
@@ -343,7 +333,7 @@ header nav {
 }
 
 .hebergement_populaire_contenu p {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .afficher_plus {
@@ -671,7 +661,7 @@ footer h2 {
       margin-left: 50px;
     }
     .hebergement_les_plus_populaires {
-    justify-content: center;
+      justify-content: center;
     }
   }
 
